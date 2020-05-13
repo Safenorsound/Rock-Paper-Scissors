@@ -1,1 +1,23 @@
-styles.css
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+
+body {
+  background-color: #25272e;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: white;
+  padding: 1rem;
+}
+
+header > h1 {
+  color: #25272e;
+  text-align: center;
+  font-family: Asap, san-serif;
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
 
 body {
-  background-color: #25272e;
+  background-color: #292c34;
   color: white;
 }
 
@@ -17,7 +17,7 @@ header {
 }
 
 header > h1 {
-  color: #25272e;
+  color: #292c34;
   text-align: center;
   font-family: Asap, san-serif;
 }
@@ -31,6 +31,7 @@ header > h1 {
   text-align: center;
   padding: 1rem;
   font-family: Asap, san serif;
+  position: relative;
 }
 
 .badge {
@@ -39,4 +40,26 @@ header > h1 {
   font-size: 1rem;
   padding: 0.25rem;
   font-family: Asap, san-serif;
+}
+
+#user-label {
+  position: absolute;
+  top: 1.5rem;
+  left: -1.75rem;
+}
+
+#computer-label {
+  position: absolute;
+  top: 1.5rem;
+  right: -1.75rem;
+}
+
+.result {
+  font-size: 4rem;
+}
+
+.result > p {
+  text-align: center;
+  font-family: Asap, san-serif;
+  font-weight: bold;
 }

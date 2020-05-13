@@ -51,7 +51,7 @@ header > h1 {
 #computer-label {
   position: absolute;
   top: 1.5rem;
-  right: -1.75rem;
+  right: -1.85rem;
 }
 
 .result {
@@ -81,4 +81,11 @@ header > h1 {
 .choice:hover {
   cursor: pointer;
   background: red;
+}
+
+p#action-message {
+  text-align: center;
+  font-family: Asap, san-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }

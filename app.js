@@ -21,6 +21,16 @@ function game(userChoice) {
     case 'pr':
     case 'sp':
       console.log('User Wins!');
+      break;
+    case 'rp':
+    case 'ps':
+    case 'sr':
+      console.log('You Lose!');
+      break;
+    case 'rr':
+    case 'pp':
+    case 'ss':
+      console.log('Its a Tie!');
   }
 }
 

@@ -9,13 +9,13 @@ const paper_div = document.getElementById('p');
 const scissors_div = document.getElementById('s');
 
 rock_div.addEventListener('click', function () {
-  console.log('You clicked on rock');
+  Gamepad('r');
 });
 
 paper_div.addEventListener('click', function () {
-  console.log('You clicked on paper');
+  Gamepad('p');
 });
 
 scissors_div.addEventListener('click', function () {
-  console.log('You clicked on scissors');
+  Gamepad('s');
 });

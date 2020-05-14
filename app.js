@@ -8,14 +8,22 @@ const rock_div = document.getElementById('r');
 const paper_div = document.getElementById('p');
 const scissors_div = document.getElementById('s');
 
-rock_div.addEventListener('click', function () {
-  Gamepad('r');
-});
+function game(userChoice) {
+  console.log('Poop + userChoice');
+}
 
-paper_div.addEventListener('click', function () {
-  Gamepad('p');
-});
+function Main() {
+  rock_div.addEventListener('click', function () {
+    Gamepad('r');
+  });
 
-scissors_div.addEventListener('click', function () {
-  Gamepad('s');
-});
+  paper_div.addEventListener('click', function () {
+    Gamepad('p');
+  });
+
+  scissors_div.addEventListener('click', function () {
+    Gamepad('s');
+  });
+}
+
+Main();

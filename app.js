@@ -14,23 +14,32 @@ function getComputerChoice() {
   return choices[randomNumber];
 }
 
+function win() {
+  console.log('WIN');
+}
+function lose() {
+  console.log('Lose');
+}
+function draw() {
+  console.log('Tie');
+}
 function game(userChoice) {
   const computerChoice = getComputerChoice();
   switch (userChoice + computerChoice) {
     case 'rs':
     case 'pr':
     case 'sp':
-      console.log('User Wins!');
+      win();
       break;
     case 'rp':
     case 'ps':
     case 'sr':
-      console.log('You Lose!');
+      lose();
       break;
     case 'rr':
     case 'pp':
     case 'ss':
-      console.log('Its a Tie!');
+      draw();
   }
 }
 

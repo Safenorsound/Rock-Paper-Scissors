@@ -14,10 +14,11 @@ function getComputerChoice() {
   return choices[randomNumber];
 }
 
-function convertToWord(letter) {}
-if (letter === 'r') return 'Rock';
-if (letter === 's') return 'Scissors';
-if (letter === 'p') return 'Paper';
+function convertToWord(letter) {
+  if (letter === 'r') return 'Rock';
+  if (letter === 's') return 'Scissors';
+  if (letter === 'p') return 'Paper';
+}
 
 function win(userChoice, computerChoice) {
   userScore++;
@@ -29,7 +30,7 @@ function win(userChoice, computerChoice) {
 }
 function lose(userChoice, computerChoice) {
   computerScore++;
-  computerScore_span.innerHTML = computerScore;
+  userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
   result_p.innerHTML = `${convertToWord(userChoice)} loses ${convertToWord(
     computerChoice

@@ -37,8 +37,6 @@ function lose(userChoice, computerChoice) {
   )}. You Lose!`;
 }
 function draw(userChoice, computerChoice) {
-  userScore_span.innerHTML = userScore;
-  computerScore_span.innerHTML = computerScore;
   result_p.innerHTML = `${convertToWord(userChoice)} ties ${convertToWord(
     computerChoice
   )}. Its a Draw`;

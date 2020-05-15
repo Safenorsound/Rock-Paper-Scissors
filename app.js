@@ -1,7 +1,7 @@
 let userScore = 0;
 let computerScore = 0;
-const userScorespam = document.getElementById('user-Score');
-const computerScorespan = document.getElementById('computer-Score');
+const userScore_span = document.getElementById('user-score');
+const computerScore_span = document.getElementById('computer-score');
 const scoreBoard_div = document.querySelector('.score-board');
 const result_p = document.querySelector('.result > p');
 const rock_div = document.getElementById('r');
@@ -32,7 +32,7 @@ function lose(userChoice, computerChoice) {
   computerScore++;
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
-  result_p.innerHTML = `${convertToWord(userChoice)} loses ${convertToWord(
+  result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(
     computerChoice
   )}. You Lose!`;
 }

@@ -16,8 +16,8 @@ function getComputerChoice() {
 
 function convertToWord(letter) {
   if (letter === 'r') return 'Rock';
-  if (letter === 's') return 'Scissors';
   if (letter === 'p') return 'Paper';
+  else return 'Scissors';
 }
 
 function win(userChoice, computerChoice) {

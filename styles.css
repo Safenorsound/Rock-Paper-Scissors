@@ -89,3 +89,8 @@ p#action-message {
   font-weight: bold;
   font-size: 2rem;
 }
+
+.green-glow {
+  border: 1rem solid #4dcc7d;
+  box-shadow: 0 0 2rem #31b43a;
+}

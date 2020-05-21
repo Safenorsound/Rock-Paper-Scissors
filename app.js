@@ -32,6 +32,7 @@ function win(userChoice, computerChoice) {
   setTimeout(() => userChoice_div.classList.remove('green-glow'), 300);
 }
 function lose(userChoice, computerChoice) {
+  const userChoice_div = document.getElementById(userChoice);
   computerScore++;
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
@@ -42,6 +43,7 @@ function lose(userChoice, computerChoice) {
   setTimeout(() => userChoice_div.classList.remove('red-glow'), 300);
 }
 function draw(userChoice, computerChoice) {
+  const userChoice_div = document.getElementById(userChoice);
   result_p.innerHTML = `${convertToWord(userChoice)} ties ${convertToWord(
     computerChoice
   )}. Its a Draw`;

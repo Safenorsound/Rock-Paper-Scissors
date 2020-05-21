@@ -99,3 +99,8 @@ p#action-message {
   border: 3rem solid #fc121b;
   box-shadow: 0 0 2rem #d01115;
 }
+
+.grey-glow {
+  border: 3rem solid #464647;
+  box-shadow: 0 0 2rem #25292b;
+}

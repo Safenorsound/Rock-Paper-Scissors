@@ -91,6 +91,11 @@ p#action-message {
 }
 
 .green-glow {
-  border: 1rem solid #4dcc7d;
+  border: 3rem solid #4dcc7d;
   box-shadow: 0 0 2rem #31b43a;
+}
+
+.red-glow {
+  border: 3rem solid #fc121b;
+  box-shadow: 0 0 2rem #d01115;
 }

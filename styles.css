@@ -67,6 +67,7 @@ header > h1 {
 .choices {
   margin: 4rem 0;
   text-align: center;
+  size: 5rem;
 }
 
 .choice {
@@ -76,6 +77,8 @@ header > h1 {
   margin: 0 1rem;
   padding: 1rem;
   transition: all 0.3s ease;
+  height: 200px;
+  width: 200px;
 }
 
 .choice:hover {
@@ -88,6 +91,11 @@ p#action-message {
   font-family: Asap, san-serif;
   font-weight: bold;
   font-size: 2rem;
+}
+
+img {
+  height: 150px;
+  width: 150px;
 }
 
 .green-glow {

@@ -58,6 +58,7 @@ header > h1 {
 
 .result {
   font-size: 4rem;
+  text-shadow: 0.25rem 0.25rem black;
 }
 
 .result > p {
